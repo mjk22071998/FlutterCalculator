@@ -107,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 color: Colors.teal,
                 child: Text(
                   _history,
-                  style: TextStyle(color: Color(0xFFE0F2F1), fontSize: 24),
+                  style: const TextStyle(color: Color(0xFFE0F2F1), fontSize: 24),
                 ),
               ),
             ),

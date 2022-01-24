@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
       } on Exception catch (_) {
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
           content: Text("Please correct your expression"),
-          duration: Duration(milliseconds: 750),
+          duration: Duration(milliseconds: 2750),
         ));
       }
     });
